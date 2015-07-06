@@ -1,0 +1,25 @@
+{
+  "name": "mknug.org",
+  "version": "1.0.0",
+  "description": "The website for the Milton Keynes Node Users Group",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKNUG/mknug.org.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MKNUG/mknug.org/issues"
+  },
+  "homepage": "http://mknug.org",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.14.3"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain mknug.org"
+    }
+  }
+}
