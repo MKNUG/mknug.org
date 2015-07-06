@@ -21,3 +21,24 @@ i.right {
 nav ul a {
     padding: 0 15px 0 0;
 }
+
+.icon-block .material-icons {
+    font-size: 7rem;
+    /*color: #ff9800;*/
+}
+
+footer svg {
+    vertical-align: bottom;
+}
+
+footer ul li {
+    margin-top: 3px;
+}
+
+footer a:hover {
+    color: #ff9800 !important;
+}
+
+h2 {
+    margin: 1.78rem 0 0 0;
+}
